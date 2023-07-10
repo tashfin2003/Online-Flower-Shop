@@ -136,3 +136,12 @@
 .insta{
     align-items: center;
 }
+/* .bgimg-container{
+    background-image: url("./F:\Ass 1\Online-Flower-Shop\Flower Asset\Rectangle 9.png");
+    width: 400px;
+    height: 100px;
+} */
+footer{
+    width: 80%;
+    background-image: url("./Flower\ Asset/Ractangle9.png");
+}
