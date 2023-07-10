@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.banner-container{
+    height: 100vh;
+    background-color: #FCEEF1;
+    
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    justify-content: space-between;
+}
+.btn{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #E55473;
+    color: white;
+    margin-top: 25px;
+}
+.heading-container{
+    font-size: 80px;
+    margin-bottom: 25px;
+}
+.head-description{
+    color: gray;
+}
+.head-img{
+    padding-bottom: 0px;
+    margin-top: 340px;
+    padding-right: 80px;
+
+}
+.featured-containers{
+    text-align: center;
+    background-color: white;
+}
+.featured-paragraph{
+    margin-top: 15px;
+    color: gray;
+}
+.featured-head{
+    margin-top: 80px;
+}
