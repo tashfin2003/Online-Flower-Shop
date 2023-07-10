@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 .banner-container{
     height: 100vh;
@@ -11,6 +12,7 @@
     align-items: center;
     padding: 100px;
     justify-content: space-between;
+    padding-bottom: 0px;
 }
 .btn{
     padding: 15px;
@@ -27,9 +29,9 @@
     color: gray;
 }
 .head-img{
-    padding-bottom: 0px;
+    /* padding-bottom: 0px;
     margin-top: 340px;
-    padding-right: 80px;
+    padding-right: 80px; */
 
 }
 .featured-containers{
@@ -42,4 +44,28 @@
 }
 .featured-head{
     margin-top: 80px;
+}
+.rightside-container{
+    margin-top: auto;
+    line-height: 0%;
+
+}
+.box{
+    width: 300px;
+    height: 400px;
+    background-color: #F1DDE7;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px gray;
+    
+    box-sizing: border-box;
+    margin: 50px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+.box-img{
+    width: 200px;
+    height: 100%;
+    line-height: 0%;
+    margin-top: auto;
 }
