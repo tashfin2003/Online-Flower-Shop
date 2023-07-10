@@ -82,6 +82,8 @@
     padding-top: 40px;
 }
 .hot-deal-container{
+    justify-content: center;
+    align-items: center;
 
 }
 .hdimg{
@@ -108,6 +110,29 @@
 }
 .seal-text{
     color: gray;
-    width: 100%;
-    margin: auto;
+    align-items: center;
+    
+}
+.s-photo{
+    width: 250px;
+    height: 250px;
+    /* display: flex; */
+    padding: 5px;
+    margin: 25px;
+    align-items: center;
+}
+.social{
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    margin-top: 30px;
+}
+.social-photos{
+    height: 30vh;
+    margin-left: 370px;
+
+    
+}
+.insta{
+    align-items: center;
 }
