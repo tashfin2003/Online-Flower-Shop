@@ -82,13 +82,17 @@
     padding-top: 40px;
 }
 .hot-deal-container{
-    justify-content: center;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 
 }
 .hdimg{
     width: 150px;
     /* height: 250px; */
+    padding-bottom: 80px;
 }
 .seal-container{
     display: flex;
@@ -127,14 +131,27 @@
     padding-top: 40px;
     margin-top: 30px;
 }
+.social-description{
+    align-items: center;
+}
 .social-photos{
-    height: 30vh;
-    margin-left: 370px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 
     
 }
+.social-img{
+    width: 250px;
+    height:300px ;
+    padding: 20px;
+}
 .insta{
+    display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 /* .bgimg-container{
     background-image: url("./F:\Ass 1\Online-Flower-Shop\Flower Asset\Rectangle 9.png");
@@ -142,6 +159,115 @@
     height: 100px;
 } */
 footer{
-    width: 80%;
-    background-image: url("./Flower\ Asset/Ractangle9.png");
+    background: black;
+    height: auto;
+    width: 100vw;
+    padding-top: 50px;
+    color: white;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-head{
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+.f-flower{
+    color: #E55473;
+}
+.footer-bottom{
+    background: black;
+    width: 100vw;
+    padding: 20px;
+    text-align: center;
+    color: gray;
+}
+.lower-description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: rgb(232, 0, 0);
+    height: auto;
+    width: 100vw;
+    padding-top: 50px;
+    color: white;
+
+}
+.lower-paragraph{
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.email-btn{
+    padding-right: 280px;
+    padding-top: 20px;
+}
+.button-form{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+.loewer-btn{
+    padding-bottom: 25px;
+}
+
+/* reg from section */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
 }

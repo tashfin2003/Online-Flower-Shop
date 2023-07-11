@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Flower Shop</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Flower Asset/for head.png" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -66,26 +67,66 @@
         <div class="social">
             <div class="insta">
                 <h1>Instagram</h1>
-            <p>It is a long established fact that a reader will be distracted by the readable <br>
+            <p class="social-description">It is a long established fact that a reader will be distracted by the readable <br>
                 content of a page when looking at its layout</p>
             </div>
             <div class="social-photos">
-                <img class="s-photo" src="Flower Asset/Flower 01.png" alt="">
-                <img class="s-photo" src="Flower Asset/Rectangle 4.png" alt="">
-                <img class="s-photo" src="Flower Asset/Rectangle 5.png" alt="">
-                <img class="s-photo" src="Flower Asset/Rectangle 6.png" alt="">
+                <div class="sp">
+                    <img class="social-img" src="Flower Asset/Flower 01.png" alt="">
+                </div>
+                <div class="sp">
+                    <img class="social-img" src="Flower Asset/Rectangle 4.png" alt="">
+                </div>
+                <div class="sp">
+                    <img class="social-img" src="Flower Asset/Rectangle 5.png" alt="">
+                </div>
+                <div class="sp">
+                    <img class="social-img" src="Flower Asset/Rectangle 6.png" alt="">
+                </div>
+               
             </div>
         </div>
-        <div class="finishing-containers">
-            <div class="background-img">
-                
-                
+       <div class="lower-description">
+        <h1>Get The Letest Deals</h1>
+        <p class="lower-paragraph">$30 coupon for first shopping</p>
+        <div class="button-form">
+            <div class="email-box">
+            
+                <form class="email-input">
+                    <input type="email" placeholder="Enter your email here..." name="email" id="">
+                </form>
             </div>
+            <div class="loewer-btn"><button class="btn">Subscribe</button></div>
         </div>
+       </div>
+       <!-- this is registration section -->
+       <div class="container">
+        <h1>Registration Form</h1>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+     
     </main>
     <footer>
         <div class="footer-container">
-            
+            <h3 class="footer-head"><span class="f-flower">Flower</span>Shop</h3>
+            <p>It is a long established fact that reader will be distracted by the readable <br> content of a page when looking at its layout</p>
+        </div>
+        <div class="footer-bottom">
+            <small><p> &copy; 2020-2023, FlowerShop.com.All rights reserved</p></small>
         </div>
     </footer>
 </body>
