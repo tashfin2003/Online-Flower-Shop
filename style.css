@@ -59,19 +59,24 @@
     border-radius: 5px;
     box-shadow: 4px 4px 4px gray;
     
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     margin: 50px;
     border-top-left-radius: 300px;
     border-top-right-radius: 300px;
     overflow: hidden;
-    margin-top: auto;
+    
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0px;
+    line-height: 0%;
 }
 .box-img{
-    width: 200px;
+    /* width: 200px; */
     /* height: auto; */
     /* height: fit-content; */
-    height: 300px;
-    line-height: 0%;
+    /* height: 300px; */
+    margin-top: auto;
+
     
     
 }
@@ -192,9 +197,11 @@ footer{
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    background: rgb(232, 0, 0);
+    background-image: url("Flower Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    margin: auto;
     height: auto;
-    width: 100vw;
+    width: 70vw;
     padding-top: 50px;
     color: white;
 
@@ -218,14 +225,6 @@ footer{
 }
 
 /* reg from section */
-
-body {
-    margin: 0;
-    padding: 0;
-    background-image: url('background.jpg');
-    background-size: cover;
-    font-family: Arial, sans-serif;
-}
 
 .container {
     width: 400px;
@@ -270,4 +269,8 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: #45a049;
+}
+.email-inp{
+    width: 100px;
+    
 }
