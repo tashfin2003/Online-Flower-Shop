@@ -35,12 +35,6 @@
 .head-description{
     color: gray;
 }
-.head-img{
-    /* padding-bottom: 0px;
-    margin-top: 340px;
-    padding-right: 80px; */
-
-}
 .featured-containers{
     text-align: center;
     background-color: white;
@@ -64,8 +58,6 @@
     padding: 50px;
     border-radius: 5px;
     /* box-shadow: 4px 4px 4px gray; */
-    
-    /* box-sizing: border-box; */
     margin: 25px;
     margin-bottom: 10px;
     border-top-left-radius: 300px;
@@ -86,17 +78,9 @@
 }
 .box-bg3{
     background-color: #E3EBDB;
-
 }
 .box-img{
-    /* width: 200px; */
-    /* height: auto; */
-    /* height: fit-content; */
-    /* height: 300px; */
-    margin-top: auto;
-
-    
-    
+    margin-top: auto;   
 }
 .boxes-containers{
     display: flex;
@@ -111,27 +95,21 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-
 }
 .hdimg{
     width: 250px;
-    /* height: 250px; */
     padding-bottom: 80px;
 }
 .seal-container{
     display: flex;
     height: 50vh;
     background-color: #FCEEF1;
-    
     background-size: cover;
-    /* display: flex; */
     align-items: center;
     padding: 100px;
-    /* justify-content: space-between; */
     padding-bottom: 0px;
     justify-content: space-around;
     align-items: center;
-
 }
 .off{
     color: rgb(255, 104, 129);
@@ -144,7 +122,6 @@
 .s-photo{
     width: 250px;
     height: 250px;
-    /* display: flex; */
     padding: 5px;
     margin: 25px;
     align-items: center;
@@ -162,9 +139,7 @@
     display: flex;
     justify-content: center;
     padding: 10px;
-    padding-bottom: 80px;
-
-    
+    padding-bottom: 80px;   
 }
 .social-img{
     width: 250px;
@@ -178,11 +153,6 @@
     flex-direction: column;
     text-align: center;
 }
-/* .bgimg-container{
-    background-image: url("./F:\Ass 1\Online-Flower-Shop\Flower Asset\Rectangle 9.png");
-    width: 400px;
-    height: 100px;
-} */
 footer{
     background: black;
     height: auto;
@@ -201,7 +171,6 @@ footer{
 .footer-head{
     font-size: 60px;
     padding-bottom: 20px;
-
 }
 .f-flower{
     color: #E55473;
@@ -211,8 +180,7 @@ footer{
     width: 100vw;
     padding: 20px;
     text-align: center;
-    color: gray;
-    
+    color: gray;   
 }
 .lower-description{
     display: flex;
@@ -228,8 +196,6 @@ footer{
     width: 60vw;
     padding-top: 50px;
     color: white;
-    /* height: 800px; */
-
 }
 .lower-paragraph{
     padding-top: 20px;
@@ -244,15 +210,11 @@ footer{
     align-items: center;
     justify-content: center;
     gap: 20px;
-    width: 100%;
-    
+    width: 100%;  
 }
 .loewer-btn{
     padding-bottom: 25px;
 }
-
-/* reg from section */
-
 .container {
     width: 400px;
     margin: 50px auto;
